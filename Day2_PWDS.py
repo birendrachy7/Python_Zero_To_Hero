@@ -78,7 +78,7 @@ print("-" * 40)
 # 5. ASSIGNMENT OPERATORS
 
 a = 52
-b = 1
+b = 4
 print(f"Initial assignment -> a: {a}, b: {b}")
 
 b += a
@@ -106,12 +106,12 @@ print("-" * 40)
 
 # 6. LOGICAL OPERATORS (and, or, not)
 
-log_x = True
-log_y = False
+x = True
+y = False
 
-print("log_x and log_y is:", log_x and log_y)
-print("log_x or log_y is :", log_x or log_y)
-print("not log_x is       :", not log_x)
+print("x and y is:", x and y)
+print("x or y is :", x or y)
+print("not x is       :", not x)
 
 # Truth Tables
 print("\n--- 'and' Truth Table ---")
@@ -131,7 +131,7 @@ print("not False:", not False)
 print("-" * 40)   # Visual Display
 
 
-# 7. ADVANCED PRINT SYNTAX (sep & end)
+# 7. PRINT SYNTAX (sep & end)
 
 print("apple", "ball", "cat", sep=",")
 print("Python", "is", "fun", sep="-", end="!!!\n")
