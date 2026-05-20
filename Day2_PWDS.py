@@ -37,6 +37,10 @@ print("He said, \"Hello\"")   # \" or \' (Quotes): Escapes internal quotes
 
 print("-" * 40)
 
+#Operators in Python are special symbols that perform specific operations on operands (values or variables).
+#Operands are the values or variables on which the operators perform operations.
+#Types of operators:
+
 
 # 3. ARITHMETIC OPERATORS (PEMDAS)
 
