@@ -9,11 +9,9 @@
 
 # In Python, we have the following types of loops:
 # 1. for loop
-"""
 for num in [1, 2, 3, 4, 5]:
     print(num, sep=",")
 
-"""
 # Range function is used to generate a sequence of numbers. 
 # It takes three parameters: start, stop, and step. 
 # range(stop) - generates numbers from 0 to stop (exclusive)
@@ -42,10 +40,18 @@ print(range(2, 21)) # This will generate numbers from 2 to 20 (exclusive of 21)
 
         
 #getting indecx and items together using enumerate
-
+#example of enumerate function:
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")
+    
 
 #looping through characters in a string
-
+# example of looping through characters in a string:
+my_string = "Hello, World!"
+for char in my_string:
+    print(char)
+    
 
 #count number of vowels in a string
 user_string = input("Enter a string to count the number of vowels: ")
