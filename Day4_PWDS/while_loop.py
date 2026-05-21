@@ -7,7 +7,7 @@
 # The condition is evaluated before the execution of the loop's body. If the condition is true, the code block inside the loop is executed.
 # Example of while loop:
 
-
+"""
 num = 1
 while num <= 10:
     print(3*num)
@@ -31,3 +31,15 @@ while prod <=30:
     print(prod)
     prod +=3
 
+
+"""
+print("#-------------------------------------------------------#")
+
+#break using while loop
+
+count = 1   # Initialize count to 1
+while True:  # Infinite loop, will run until break is encountered
+    print(count) # Print the current value of count
+    count += 1   # Increment count by 1
+    if count > 5:   # Check if count exceeds 5
+        break    # Exit when count exceeds 5
