@@ -195,3 +195,27 @@ print(my_list)  # Output: [3, 1, 4, 2, 5] (the original list remains unchanged)
 my_list = [1, 2, 3, 4, 5]
 my_list.reverse()  # Reversing the order of the list
 print(my_list)  # Output: [5, 4, 3, 2, 1] (the list reversed in place)  
+
+
+
+
+#List Comprehension:
+# List comprehension is a concise way to create lists in Python. It allows you to generate a new list by applying an expression to each item in an iterable (e.g., list) while optionally filtering items using a condition.
+# The syntax for list comprehension is: [expression for item in iterable if condition]
+# example of list comprehension:
+# Creating a list of squares using list comprehension
+squares = [x**2 for x in range(1, 6)]  # Generating squares of numbers from 1 to 5
+print(squares)  # Output: [1, 4, 9, 16, 25] (the list of squares generated using list comprehension)
+
+# Creating a list of even numbers using list comprehension with a condition
+even_numbers = [x for x in range(1, 11) if x % 2 == 0]  # Generating even numbers from 1 to 10
+print(even_numbers)  # Output: [2, 4, 6, 8, 10] (the list of even numbers generated using list comprehension with a condition)
+
+# List comprehension can also be used to create a list of tuples or to apply more complex expressions. 
+# It is a powerful and efficient way to generate lists in Python while keeping the code concise and readable.
+
+#List Comprehension with condition:
+# Creating a list of squares of even numbers using list comprehension with a condition
+squares_of_even = [x**2 for x in range(1, 11) if x % 2 == 0]  # Generating squares of even numbers from 1 to 10
+print(squares_of_even)  # Output: [4, 16, 36,   64, 100] (the list of squares of even numbers generated using list comprehension with a condition)     
+
