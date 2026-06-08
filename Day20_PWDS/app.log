@@ -1,0 +1,11 @@
+2026-06-08 07:46:01,452 - DEBUG - Dividing 10 by 0
+2026-06-08 07:46:01,452 - ERROR - Division by zero attempted
+2026-06-08 07:46:01,452 - CRITICAL - Application caught a division by zero error
+2026-06-08 07:47:45,233 - DEBUG - Dividing 10 by 0
+2026-06-08 07:47:45,233 - ERROR - Division by zero attempted
+DEBUG:root:Dividing 10 by 0
+ERROR:root:Division by zero attempted
+DEBUG:root:Dividing 10 by 5
+INFO:root:Division result: 2.0
+2026-06-08 07:50:05,823 - DEBUG - Dividing 10 by 5
+2026-06-08 07:50:05,823 - INFO - Division result: 2.0
