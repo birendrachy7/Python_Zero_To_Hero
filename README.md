@@ -1,6 +1,6 @@
 #  Python Zero To Hero
 
-A structured **22-day Python learning journey** designed to take you from absolute beginner to a confident Python programmer — with a strong focus on concepts relevant to **Data Science**.
+A structured **Python learning journey** designed to take you from absolute beginner to a confident Python programmer,
 
 ---
 
@@ -8,11 +8,7 @@ A structured **22-day Python learning journey** designed to take you from absolu
 
 This repository contains daily Python practice files organized as a progressive learning series. Each day builds on the previous one, introducing new concepts in a hands-on, example-driven style. Whether you're picking up Python for the first time or reinforcing your foundations, this repo is your daily companion.
 
-> **PWDS** stands for **Python With Data Science** — reflecting the end goal of applying Python skills in data-driven contexts.
-
 ---
-
-
 
 ##  Getting Started
 
