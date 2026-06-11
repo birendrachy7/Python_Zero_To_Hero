@@ -69,7 +69,7 @@ def add_db():
     #      print('Error altering table')
     #      print(e)
 
-    #  #ALtering table - Rename table
+     #ALtering table - Rename table
 
     #     rename_table_query = """
     # alter table users rename to students;
@@ -94,6 +94,8 @@ def add_db():
     # except Exception as e:
     #     print("Error")
     #     print(e)
+    
+    #Multiple Record to database table
     insert_multiple_query = """
     insert into students (name, age,email,phone_number) values (?,?,?,?);
     """
@@ -112,18 +114,6 @@ def add_db():
         print(e)
 
 
-# def read_db():
-#     print("You are inside Read DB")
-
-# def update_db():
-#     print("You are inside Update DB")
-
-# def delete_db():
-#     print("You are inside Delete DB")
-
 
 # create_table_query()
 add_db()
-# read_db()
-# update_db()
-# delete_db()
