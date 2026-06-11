@@ -1,0 +1,46 @@
+
+
+
+
+
+
+alter table table_name rename column old_name to new_name
+
+alter table old_table_name rename to new_table_name
+
+########### Read (select)
+select *  from table_name
+
+select column1,column2 from table_name;
+
+select * from table_name where condition;
+
+----
+select * from table_name order by column_name[ASC|DESC];
+
+
+---- select with limit 
+select * from table_name limit number;
+
+
+
+
+
+# Update
+update all data--------
+update table_name set column = value;
+
+---------update wit condition
+update table_name set column = value where condition;
+
+--- update multiple columns
+
+Update table_name set column1=value1, column2=value2 where condition;
+
+
+#delete
+---------delete all rows
+delete from table_name;
+
+------delete with condition
+delete from table_name where condition;
