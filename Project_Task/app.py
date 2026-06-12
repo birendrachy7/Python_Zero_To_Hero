@@ -278,7 +278,7 @@ def main():
 
     choose = True
 
-    while running:
+    while choose:
 
         print_menu()
 
@@ -286,7 +286,7 @@ def main():
 
         choose = handle_choice(choice)
 
-        if running:
+        if choose:
             input("\nPress Enter to continue...")
 
 
