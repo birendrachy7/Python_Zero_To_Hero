@@ -1,13 +1,10 @@
-"""
-Simple CRUD CLI App with SQLite Database Integration
-"""
 
 import sqlite3
 
 DB_NAME = "users.db"
 
 
-# ---------------- DATABASE ----------------
+# Database
 
 def init_db():
     """Create database and users table."""
@@ -31,7 +28,7 @@ def get_connection():
     return sqlite3.connect(DB_NAME)
 
 
-# ---------------- CREATE ----------------
+# adding users details
 
 def add_user():
     print("\n--- Add New User ---")
@@ -73,7 +70,7 @@ def add_user():
         print("Email already exists.")
 
 
-# ---------------- READ ----------------
+#reading  users details
 
 def show_all_users():
     print("\n--- User List ---")
@@ -103,7 +100,7 @@ def show_all_users():
         )
 
 
-# ---------------- UPDATE ----------------
+# update users details
 
 def update_user():
     print("\n--- Update User ---")
@@ -181,7 +178,7 @@ def update_user():
     conn.close()
 
 
-# ---------------- DELETE ----------------
+# deleting users details
 
 def delete_user():
     print("\n--- Delete User ---")
@@ -231,7 +228,7 @@ def delete_user():
     conn.close()
 
 
-# ---------------- MENU ----------------
+# menu 
 
 def print_menu():
     print("\n" + "=" * 40)
@@ -245,7 +242,7 @@ def print_menu():
     print("=" * 40)
 
 
-def handle_choice(choice):
+def menu_choice(choice):
 
     if choice == "1":
         add_user()
@@ -284,7 +281,7 @@ def main():
 
         choice = input("Enter your choice: ").strip()
 
-        choose = handle_choice(choice)
+        choose = menu_choice(choice)
 
         if choose:
             input("\nPress Enter to continue...")
